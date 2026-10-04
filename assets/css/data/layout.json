@@ -1,0 +1,47 @@
+{
+  "A": {
+    "normal": "a",
+    "shift": "Á",
+    "altGr": "á"
+  },
+  "Q": {
+    "normal": "q",
+    "shift": "Ä",
+    "altGr": "ä"
+  },
+  "W": {
+    "normal": "w",
+    "shift": "Ë",
+    "altGr": "ë"
+  },
+  "E": {
+    "normal": "e",
+    "shift": "É",
+    "altGr": "é"
+  },
+  "U": {
+    "normal": "u",
+    "shift": "Ï",
+    "altGr": "ï"
+  },
+  "I": {
+    "normal": "i",
+    "shift": "Í",
+    "altGr": "í"
+  },
+  "O": {
+    "normal": "o",
+    "shift": "Ó",
+    "altGr": "ó"
+  },
+  "P": {
+    "normal": "p",
+    "shift": "Ö",
+    "altGr": "ö"
+  },
+  "L": {
+    "normal": "l",
+    "shift": "Ø",
+    "altGr": "ø"
+  }
+}

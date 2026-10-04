@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shilluk Keyboard</title>
+
+    <meta name="description"
+          content="A modern Unicode keyboard for typing the Shilluk language on Windows.">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<!-- ==========================================
+     NAVBAR
+=========================================== -->
+
+<header>
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <div class="logo">
+                ⌨ <strong>Shilluk Keyboard</strong>
+            </div>
+
+            <ul class="nav-links">
+
+               
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="keyboard.html">Keyboard</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+
+            </ul>
+
+            <a href="#" class="btn btn-primary">
+                Download
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- ==========================================
+     HERO
+=========================================== -->
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <div>
+
+                <span class="badge">Interactive Keyboard</span>
+
+                <h1>Explore the Shilluk Keyboard Layout</h1>
+
+                <p>
+                    Switch between Normal, Shift, and AltGr layers to see
+                    every key available in the Shilluk Keyboard.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="download.html" class="btn btn-primary">
+                        Download Keyboard
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Supported Layers</h3>
+
+                <p>✔ Normal</p>
+
+                <p>✔ Shift</p>
+
+                <p>✔ AltGr</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+     INTERACTIVE KEYBOARD
+========================================== -->
+
+<section class="keyboard-section">
+
+    <div class="container">
+
+        <div class="text-center">
+
+            <span class="badge">Keyboard Layout</span>
+
+            <h2>Interactive Shilluk Keyboard</h2>
+
+            <p>
+                Click a layer to view the keyboard layout.
+            </p>
+
+        </div>
+
+        <div class="keyboard-container">
+
+            <div class="keyboard-controls">
+
+                <button class="layer-btn active" data-layer="normal">
+                    Normal
+                </button>
+
+                <button class="layer-btn" data-layer="shift">
+                    Shift
+                </button>
+
+                <button class="layer-btn" data-layer="altgr">
+                    AltGr
+                </button>
+
+            </div>
+
+            <div class="keyboard-wrapper">
+
+    <div id="keyboard"></div>
+
+    <div class="key-info">
+
+        <h3>Character Details</h3>
+
+        <div class="character-preview">A</div>
+
+        <p><strong>Shortcut:</strong> <span id="shortcut">A</span></p>
+
+        <p><strong>Unicode:</strong> <span id="unicode">U+0041</span></p>
+
+        <button id="copyBtn" class="btn btn-primary">
+            Copy Character
+        </button>
+
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     FOOTER
+=========================================== -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <h3>Shilluk Keyboard</h3>
+
+            <p>
+                A modern Unicode keyboard designed to make typing the Shilluk
+                language simple, accurate, and accessible.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h4>Quick Links</h4>
+
+            <ul class="footer-links">
+    
+                <li><a href="index.html">Home</a></li>    
+                <li><a href="about.html">About</a></li>    
+                <li><a href="keyboard.html">Keyboard</a></li>    
+                <li><a href="download.html">Download</a></li>    
+                <li><a href="documentation.html">Documentation</a></li>
+
+            </ul>
+        </div>
+
+        <div>
+
+            <h4>Support</h4>
+
+            <ul class="footer-links">
+    
+                <li><a href="documentation.html">Installation Guide</a></li>    
+                <li><a href="documentation.html">FAQ</a></li>
+                
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        Made with ❤️ to support the Shilluk language community.
+
+        © 2026 Shilluk Keyboard • Designed & Developed by
+<a href="about.html" class="developer-link">Neba</a>
+
+    </div>
+
+</footer>
+
+<script src="assets/css/js/keyboard.js"></script>
+</body>
+</html>

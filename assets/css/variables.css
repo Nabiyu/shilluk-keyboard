@@ -1,0 +1,131 @@
+/* ==========================================================
+   Shilluk Keyboard Design System
+   Version: 1.0
+========================================================== */
+
+:root {
+
+    /* ===========================
+       Brand Colors
+    =========================== */
+
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --primary-light: #60a5fa;
+
+    --secondary: #0f172a;
+
+    --accent: #14b8a6;
+
+    --success: #16a34a;
+    --warning: #f59e0b;
+    --danger: #dc2626;
+
+    /* ===========================
+       Neutral Colors
+    =========================== */
+
+    --white: #ffffff;
+
+    --gray-50: #f8fafc;
+    --gray-100: #f1f5f9;
+    --gray-200: #e2e8f0;
+    --gray-300: #cbd5e1;
+    --gray-400: #94a3b8;
+    --gray-500: #64748b;
+    --gray-600: #475569;
+    --gray-700: #334155;
+    --gray-800: #1e293b;
+    --gray-900: #0f172a;
+
+    --background: var(--gray-50);
+    --surface: var(--white);
+
+    --text: var(--gray-900);
+    --text-light: var(--gray-600);
+
+    --border: var(--gray-200);
+
+    /* ===========================
+       Typography
+    =========================== */
+
+    --font-family:
+        "Inter",
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    --fs-xs: .75rem;
+    --fs-sm: .875rem;
+    --fs-base: 1rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.25rem;
+    --fs-2xl: 1.5rem;
+    --fs-3xl: 2rem;
+    --fs-4xl: 3rem;
+    --fs-5xl: 4rem;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-black: 800;
+
+    --line-height: 1.6;
+
+    /* ===========================
+       Spacing
+    =========================== */
+
+    --space-1: .25rem;
+    --space-2: .5rem;
+    --space-3: .75rem;
+    --space-4: 1rem;
+    --space-5: 1.5rem;
+    --space-6: 2rem;
+    --space-7: 3rem;
+    --space-8: 4rem;
+    --space-9: 6rem;
+
+    /* ===========================
+       Border Radius
+    =========================== */
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-full: 999px;
+
+    /* ===========================
+       Shadows
+    =========================== */
+
+    --shadow-sm:
+        0 2px 8px rgba(0,0,0,.05);
+
+    --shadow-md:
+        0 8px 24px rgba(0,0,0,.08);
+
+    --shadow-lg:
+        0 20px 40px rgba(0,0,0,.12);
+
+    /* ===========================
+       Layout
+    =========================== */
+
+    --container: 1200px;
+    --header-height: 80px;
+
+    /* ===========================
+       Animation
+    =========================== */
+
+    --transition-fast: .2s ease;
+    --transition: .3s ease;
+    --transition-slow: .5s ease;
+
+}
